@@ -1,2 +1,12 @@
 # Elanco-Placement-Program-Technical-Task---Backend
-This projected looks at a Tick Sighting data set. it is a back end system for a web application that process, analyses and manages the data.e
+This projected looks at a Tick Sighting data set. It is a back end system for a web application that process, analyses and manages the data. throught out this project i used AI to support my work. however I did not have a subscription to them so had to use many diffrent forms. due to this I was not able to implemnt the APIs sucsefly as i have never worked with them before and did not feel cofident doing so in a short period of time with out the suport of a team or AI. 
+
+when considering using APIs for this project I would need to import a cliant to my back end code that will wrap API calls. after resiving the API information (such as what spices the user wants to see data for) the API sould be convirted in to the same lay out as the rest of my code so it readable to the program. then the function is prosesed. the data will then be saved and fead back to the API. the ways to make the APIs more secure it to make sure there is no data missing when it is passed in or out of my program and if it is imforming the user that there has been an issue and it need to be looked at to check it has been run corectly. another problem that might arises is data quolity issues the way to reduse this is by running test data and moderating it making sure your data is consitent and making the apropriate changers where it is not.
+
+with in this project my code take in the tick sighting.xlsx file. It then fillters it so that any repeated data is deladted so there is only one coppie this reduses errers when analising it as there will not be multiple of the exact same file. it also filters all the empty values and saves them as "unknown" so that non of the data is lost it is just filed corectly. the next change that is make to the file is the date is set to iso 8601 format so there is no confution on what order it is in and how to read it keeping it consistant through out the data set. it will then produse a matrix to show the user what file was read, any rows dealted and where the data is now saved as a csv this was mainly for testing perposes. 
+
+the code then alows the user to searach the code by time and location. weather this be from a set time or beteen times as well as up to a time. it alwos the user to expres where they want the data to be saved and then confurms how many rows have been saved to that file when run corectly.
+
+the code then can write a report on a file the use chooses saved as report.txt that contain the total sigtings the number of cases perloccation and the number of sigtings per month.
+	
+A README of your choices and project outline
